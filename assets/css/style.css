@@ -1,0 +1,40 @@
+@font-face {
+  font-family: IndieFlower-Regular;
+  src: url(../fonts/IndieFlower-Regular.ttf);
+}
+
+body {
+   
+  background-image: url(../images/Imagem\ principal1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+    border-left: 10px;
+}
+
+h1 {
+  font-family: IndieFlower-Regular;
+  font-size: 110px;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-style: oblique;
+    text-transform: uppercase;
+    
+}
+
+input {
+    display: block;
+    margin: 10px;
+    border: 3px solid whitesmoke;
+    width: 45%;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+    /*background-image: url(../images/rélogio\ quebrado.png);
+    background-repeat: no-repeat;
+    
+}
