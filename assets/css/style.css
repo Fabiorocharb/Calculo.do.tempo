@@ -3,13 +3,23 @@
   src: url(../fonts/IndieFlower-Regular.ttf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+*main {
+  width: 25%;
+  float: left;
+}
+
 main {
   background-image: url(../images/Imagem\ principal1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  /*background-attachment: scroll;
   /*background-attachment: fixed;*/
-  border-left: 10px;
+  margin: 0;
 }
 
 h1 {
@@ -34,12 +44,19 @@ input {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+button {
+  display: block;
+  margin: 10px;
+  border: 3px solid whitesmoke;
+  width: 20%;
+  height: 30px;
+}
+
 footer {
   background-image: url(../images/rélogio\ quebrado.png);
   background-repeat: no-repeat;
   background-size: contain;
   clear: both;
-
 }
 
 h4 {
