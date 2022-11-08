@@ -16,15 +16,16 @@ main {
   background-image: url(../images/Imagem\ principal1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  /*background-attachment: scroll;
-  /*background-attachment: fixed;*/
-  margin: 0;
+  margin-top: -80px;
+  margin-left: -10px;
+  margin-right: -7px;
+  margin-bottom: 0px;
 }
 
 h1 {
   font-family: IndieFlower-Regular;
   font-size: 110px;
+  margin-left: 30px;
 }
 
 h3 {
@@ -32,11 +33,13 @@ h3 {
   font-size: 25px;
   font-style: oblique;
   text-transform: uppercase;
+  margin-left: 30px;
 }
 
 input {
   display: block;
   margin: 10px;
+  margin-left: 60px;
   border: 3px solid whitesmoke;
   width: 45%;
   height: 30px;
@@ -47,29 +50,43 @@ input {
 button {
   display: block;
   margin: 10px;
+  margin-left: 60px;
   border: 3px solid whitesmoke;
   width: 20%;
   height: 30px;
 }
 
-footer {
+#relogioAntigo {
+  background-size: cover;
+  background-position: left left;
+  width: 40%;
+  height: 40%;
+  margin-left: -20px;
+  margin-bottom: 10px;
+}
+/*footer {
   background-image: url(../images/rélogio\ quebrado.png);
   background-repeat: no-repeat;
   background-size: contain;
   clear: both;
-}
+}*/
 
 h4 {
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
   font-size: 25px;
-  text-align: right;
-  margin: 60px;
+  margin-top: -650px;
+  margin-left: 750px;
 }
 
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: oblique;
   font-size: 15px;
-  text-align: right;
+  margin-left: 750px;
+}
+
+#icon {
+  margin-left: 750px;
+  line-height: 0px;
 }
