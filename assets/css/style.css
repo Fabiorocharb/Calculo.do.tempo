@@ -2,7 +2,22 @@
   font-family: IndieFlower-Regular;
   src: url(../fonts/IndieFlower-Regular.ttf);
 }
-
+@font-face {
+  font-family: JosefinSans-VariableFont_wght;
+  src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Quicksand-VariableFont_wght;
+  src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: GreatVibes-Regular;
+  src: url(../fonts/GreatVibes-Regular.ttf);
+}
+@font-face {
+  font-family: EuphoriaScript-Regular;
+  src: url(../fonts/EuphoriaScript-Regular.ttf);
+}
 * {
   box-sizing: border-box;
 }
@@ -23,9 +38,9 @@ main {
 }
 
 h1 {
-  font-family: IndieFlower-Regular;
-  font-size: 110px;
-  margin-left: 30px;
+  font-family: EuphoriaScript-Regular;
+  font-size: 140px;
+  margin-left: 180px;
 }
 
 h3 {
@@ -64,29 +79,38 @@ button {
   margin-left: -20px;
   margin-bottom: 10px;
 }
-/*footer {
-  background-image: url(../images/rélogio\ quebrado.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  clear: both;
-}*/
 
 h4 {
-  font-family: "Courier New", Courier, monospace;
-  font-style: italic;
-  font-size: 25px;
+  font-family: JosefinSans-VariableFont_wght;
+  font-size: 30px;
   margin-top: -650px;
   margin-left: 750px;
 }
 
 p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-style: oblique;
-  font-size: 15px;
+  font-family: Quicksand-VariableFont_wght;
+  font-size: 18px;
+  margin-left: 750px;
+}
+
+em {
+  font-family: GreatVibes-Regular;
+  font-size: larger;
+  font-style: italic;
   margin-left: 750px;
 }
 
 #icon {
   margin-left: 750px;
-  line-height: 0px;
+  margin-top: 60px;
+}
+
+footer {
+  background: black;
+  margin: -8px;
+}
+
+h2 {
+  color: black;
+  font-size: 50px;
 }
