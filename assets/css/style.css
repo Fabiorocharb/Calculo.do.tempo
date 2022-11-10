@@ -61,7 +61,15 @@ input {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
+#resultado {
+  background: whitesmoke;
+  display: block;
+  border: 6px solid whitesmoke;
+  margin-left: 375px;
+  margin-top: -60px;
+  width: 20%;
+  height: 40%;
+}
 button {
   display: block;
   margin: 10px;
