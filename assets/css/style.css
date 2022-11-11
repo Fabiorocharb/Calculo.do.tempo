@@ -18,14 +18,6 @@
   font-family: EuphoriaScript-Regular;
   src: url(../fonts/EuphoriaScript-Regular.ttf);
 }
-* {
-  box-sizing: border-box;
-}
-
-*main {
-  width: 25%;
-  float: left;
-}
 
 main {
   background-image: url(../images/Imagem\ principal1.png);
