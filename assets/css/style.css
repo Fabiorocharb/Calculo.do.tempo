@@ -23,7 +23,7 @@ main {
   background-image: url(../images/Imagem\ principal1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -80px;
+  margin-top: -95px;
   margin-left: -10px;
   margin-right: -7px;
   margin-bottom: 0px;
@@ -107,10 +107,54 @@ em {
 
 footer {
   background: black;
-  margin: -8px;
+  margin: -10px;
 }
 
 h2 {
   color: black;
   font-size: 50px;
+}
+/*Desktop acima 1300px */
+@media (min-width: 1300px) {
+  h1 {
+    margin-left: 490px;
+  }
+  h3 {
+    margin-left: 380px;
+  }
+  main {
+    background-size: contain;
+    background-position: center;
+  }
+  input {
+    margin-left: 380px;
+  }
+  button {
+    margin-left: 380px;
+  }
+  #resultado {
+    margin-left: 840px;
+  }
+  #relogioAntigo {
+    position: center left;
+    margin-left: 15.25%;
+    width: 40%;
+    height: 40%;
+  }
+  h4 {
+    margin-left: 1100px;
+  }
+
+  em {
+    margin-left: 1100px;
+  }
+
+  p {
+    margin-left: 1100px;
+  }
+
+  #icon {
+    margin-left: 1100px;
+    width: 25%;
+  }
 }
