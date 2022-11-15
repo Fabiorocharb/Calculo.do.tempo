@@ -118,7 +118,7 @@ h2 {
   padding: 0px;
 }
 /*Desktop acima 1300px */
-@media (min-width: 1300px) {
+@media (min-width: 1300px) and (max-width: 1920px) {
   h1 {
     margin-left: 490px;
   }
@@ -126,8 +126,7 @@ h2 {
     margin-left: 380px;
   }
   main {
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
   }
   input {
     margin-left: 380px;
@@ -139,25 +138,25 @@ h2 {
     margin-left: 840px;
   }
   #relogioAntigo {
-    position: center left;
-    margin-left: 15.25%;
-    width: 40%;
-    height: 40%;
+    position: cover;
+    width: 30%;
   }
   h4 {
-    margin-left: 1100px;
+    margin-left: 900px;
+    margin-top: -700px;
   }
 
   em {
-    margin-left: 1100px;
+    margin-left: 900px;
   }
 
   p {
-    margin-left: 1100px;
+    margin-left: 900px;
   }
 
   #icon {
-    margin-left: 1100px;
+    margin-bottom: 130px;
+    margin-left: 900px;
     width: 25%;
   }
 }
