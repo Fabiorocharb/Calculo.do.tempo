@@ -158,3 +158,73 @@ h2 {
     width: 25%;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  main {
+    background-position: right;
+    margin-top: -95px;
+    margin-left: -10px;
+    margin-right: -7px;
+    margin-bottom: 0px;
+  }
+
+  h1 {
+    margin-left: 100px;
+    margin-top: 95px;
+    font-size: 120px;
+  }
+  h3 {
+    margin-top: -70px;
+    columns: 2;
+    margin-left: 65px;
+    font-size: 20px;
+  }
+  #resultado {
+    margin-left: 267px;
+    margin-top: -70px;
+    border: 0px solid whitesmoke;
+  }
+  #relogioAntigo {
+  background-size: contain;
+  width: 100%;
+  }
+
+  h4 {
+      font-size: 30px;
+      position: relative;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    p {
+      position: relative;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    
+    em {
+      position: relative;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    
+    #icon {
+      position: relative;
+      margin-top: 10px;
+      margin-left: 20px;
+      width: 55%;
+    }
+    
+    footer {
+      background: black;
+      margin: 0px;
+    }
+    
+    h2 {
+      color: black;
+      font-size: 20px;
+    }
+}
